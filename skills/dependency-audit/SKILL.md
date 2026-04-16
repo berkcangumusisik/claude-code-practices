@@ -22,9 +22,9 @@ npm outdated 2>/dev/null || bun outdated 2>/dev/null
 ```
 
 3. Categorize findings:
-   - **Critical/High CVEs** — list with CVE ID, affected version, fixed version
-   - **Outdated major versions** — breaking changes to watch for
-   - **Outdated minor/patch** — safe to update
+   - **Critical/High CVEs** - list with CVE ID, affected version, fixed version
+   - **Outdated major versions** - breaking changes to watch for
+   - **Outdated minor/patch** - safe to update
 
 4. For Critical/High vulnerabilities:
    - Can it be fixed with `npm audit fix`?

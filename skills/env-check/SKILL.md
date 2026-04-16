@@ -38,7 +38,7 @@ Environment Check:
   ❌  STRIPE_SECRET_KEY  ← MISSING (required for payments)
   ⚠️  REDIS_URL          ← Missing (optional, caching disabled)
 
-Result: 1 required var missing — app will fail to start.
+Result: 1 required var missing - app will fail to start.
 ```
 
 5. Suggest how to obtain missing variables.

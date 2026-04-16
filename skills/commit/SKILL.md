@@ -27,19 +27,19 @@ Conventional Commits formatını kullan:
 ```
 
 ### Type Seçimi
-- `feat` — yeni özellik
-- `fix` — hata düzeltmesi
-- `refactor` — davranış değişikliği olmayan yeniden yapılandırma
-- `test` — test ekleme veya düzeltme
-- `docs` — yalnızca dokümantasyon
-- `style` — biçimlendirme (logic yok)
-- `chore` — build, bağımlılık güncellemesi
-- `perf` — performans iyileştirmesi
-- `ci` — CI/CD değişikliği
+- `feat` - yeni özellik
+- `fix` - hata düzeltmesi
+- `refactor` - davranış değişikliği olmayan yeniden yapılandırma
+- `test` - test ekleme veya düzeltme
+- `docs` - yalnızca dokümantasyon
+- `style` - biçimlendirme (logic yok)
+- `chore` - build, bağımlılık güncellemesi
+- `perf` - performans iyileştirmesi
+- `ci` - CI/CD değişikliği
 
 ### Kurallar
 - Başlık satırı 72 karakteri geçmemeli
-- Türkçe veya İngilizce — repo'daki mevcut dili kullan
+- Türkçe veya İngilizce - repo'daki mevcut dili kullan
 - "ne yaptı" değil "ne yapar" odaklı: "Ekle" değil "Ekledi"
 - Breaking change varsa footer'a `BREAKING CHANGE:` ekle
 

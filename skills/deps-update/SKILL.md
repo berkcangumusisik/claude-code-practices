@@ -1,6 +1,6 @@
 ---
 name: deps-update
-description: Updates dependencies safely — patch/minor auto, major with analysis
+description: Updates dependencies safely - patch/minor auto, major with analysis
 user-invocable: true
 allowed-tools: Bash Read Edit
 effort: medium

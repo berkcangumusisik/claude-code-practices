@@ -1,6 +1,6 @@
 ---
 name: query-optimize
-description: Optimizes database queries — adds indexes, rewrites N+1s, batches requests
+description: Optimizes database queries - adds indexes, rewrites N+1s, batches requests
 argument-hint: [file-path]
 user-invocable: true
 allowed-tools: Read Grep Glob Edit

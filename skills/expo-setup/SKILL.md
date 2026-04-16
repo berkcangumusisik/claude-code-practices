@@ -9,7 +9,7 @@ effort: medium
 
 ## Expo / EAS Setup
 
-Platform: **$1** (ios | android | all — default: all)
+Platform: **$1** (ios | android | all - default: all)
 
 1. Check current state:
 ```bash

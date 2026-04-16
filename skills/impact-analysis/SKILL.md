@@ -1,6 +1,6 @@
 ---
 name: impact-analysis
-description: Analyzes the impact of changing a file or function — what else would break
+description: Analyzes the impact of changing a file or function - what else would break
 argument-hint: <file-path> [function-name]
 user-invocable: true
 allowed-tools: Grep Read Glob Bash

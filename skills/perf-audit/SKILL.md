@@ -1,6 +1,6 @@
 ---
 name: perf-audit
-description: Finds performance bottlenecks in code — N+1 queries, unnecessary re-renders, blocking operations
+description: Finds performance bottlenecks in code - N+1 queries, unnecessary re-renders, blocking operations
 argument-hint: [file-or-directory]
 user-invocable: true
 allowed-tools: Read Grep Glob

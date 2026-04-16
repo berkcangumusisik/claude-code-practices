@@ -25,7 +25,7 @@ ls e2e/ tests/ cypress/ playwright/ 2>/dev/null | head -20
    - Assertions at each key step
    - Teardown / cleanup
 
-4. Use data-testid selectors by preference, then aria labels, then text — avoid CSS class selectors.
+4. Use data-testid selectors by preference, then aria labels, then text - avoid CSS class selectors.
 
 5. Place the test in the correct directory matching project conventions.
 

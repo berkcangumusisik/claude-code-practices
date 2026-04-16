@@ -112,7 +112,7 @@ cp -r skills/fix-issue .claude/skills/
 | [form-gen](form-gen/SKILL.md) | `/form-gen <description>` | Validasyonlu, erişilebilir form üretir |
 | [tailwind-cleanup](tailwind-cleanup/SKILL.md) | `/tailwind-cleanup [dir]` | Kullanılmayan Tailwind class'larını temizler |
 | [state-audit](state-audit/SKILL.md) | `/state-audit [dir]` | Prop drilling, redundant state, eksik memo bulur |
-| [seo-check](seo-check/SKILL.md) | `/seo-check [page]` | Next.js/React SEO denetimi — meta, OG, structured data |
+| [seo-check](seo-check/SKILL.md) | `/seo-check [page]` | Next.js/React SEO denetimi - meta, OG, structured data |
 | [lighthouse-fix](lighthouse-fix/SKILL.md) | `/lighthouse-fix [target]` | Lighthouse skoru düşüren sorunları düzeltir |
 | [accessibility-audit](accessibility-audit/SKILL.md) | `/accessibility-audit [dir]` | WCAG 2.1 erişilebilirlik denetimi |
 | [i18n-check](i18n-check/SKILL.md) | `/i18n-check [dir]` | Hardcoded string'leri bulur, çeviri key'leri üretir |

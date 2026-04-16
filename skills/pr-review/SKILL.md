@@ -60,9 +60,9 @@ Aşağıdaki alanlarda kapsamlı inceleme yap:
 
 Şu başlıklar altında bulgularını sun:
 
-**Kritik Sorunlar** — merge öncesi mutlaka düzeltilmeli  
-**Öneriler** — kaliteyi artıracak değişiklikler  
-**Küçük Notlar** — stil veya tercih meselesi  
-**Olumlu Noktalar** — iyi yapılan şeyler  
+**Kritik Sorunlar** - merge öncesi mutlaka düzeltilmeli  
+**Öneriler** - kaliteyi artıracak değişiklikler  
+**Küçük Notlar** - stil veya tercih meselesi  
+**Olumlu Noktalar** - iyi yapılan şeyler  
 
 Her bulgu için ilgili dosya ve satır numarasını belirt.

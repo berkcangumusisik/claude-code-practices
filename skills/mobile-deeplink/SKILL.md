@@ -41,4 +41,4 @@ xcrun simctl openurl booted "$1://path/to/screen"
 adb shell am start -W -a android.intent.action.VIEW -d "$1://path/to/screen"
 ```
 
-6. Generate a deeplink test matrix — all routes with test URLs.
+6. Generate a deeplink test matrix - all routes with test URLs.

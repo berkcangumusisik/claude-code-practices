@@ -1,6 +1,6 @@
 ---
 name: setup-project
-description: Onboards a new developer — explains the project, runs setup steps, verifies everything works
+description: Onboards a new developer - explains the project, runs setup steps, verifies everything works
 user-invocable: true
 allowed-tools: Bash Read Glob
 effort: medium
@@ -24,7 +24,7 @@ npm install 2>&1 || bun install 2>&1
 ls .env* 2>/dev/null
 ```
 
-3. Env vars check — if `.env` is missing, copy from `.env.example` and list what needs filling:
+3. Env vars check - if `.env` is missing, copy from `.env.example` and list what needs filling:
 ```bash
 cp .env.example .env 2>/dev/null && echo "Created .env from example"
 ```

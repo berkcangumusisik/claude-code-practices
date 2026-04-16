@@ -46,7 +46,7 @@ git checkout -b recipe/auto-lint-hook
 
 ### 3. Değişikliklerini Yap / Make Your Changes
 
-Aşağıdaki kural listelerini oku. Then make your changes.
+Aşağıdaki kural listelerini oku, sonra değişikliklerini yap.
 
 ---
 
@@ -168,7 +168,7 @@ Closes #
 
 ## Soru? / Questions?
 
-Issue aç veya Discussion başlat — her katkı değerlidir.  
+Issue aç veya Discussion başlat, her katkı değerlidir.  
 Open an issue or start a Discussion — every contribution matters.
 
 ---

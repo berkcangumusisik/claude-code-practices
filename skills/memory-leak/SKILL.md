@@ -1,6 +1,6 @@
 ---
 name: memory-leak
-description: Finds potential memory leaks — uncleaned listeners, unclosed connections, growing caches
+description: Finds potential memory leaks - uncleaned listeners, unclosed connections, growing caches
 argument-hint: [file-path]
 user-invocable: true
 allowed-tools: Read Grep Glob

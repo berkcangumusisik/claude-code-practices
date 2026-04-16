@@ -27,6 +27,6 @@ npx eslint . --ext .ts,.tsx,.js,.jsx --fix 2>&1
    - Understand why the rule exists
    - Apply the correct fix (not just suppressing with comments)
 
-4. If a rule keeps firing and seems wrong for the project: note it but do NOT add `eslint-disable` comments — flag it for review instead.
+4. If a rule keeps firing and seems wrong for the project: note it but do NOT add `eslint-disable` comments - flag it for review instead.
 
 5. Report: N auto-fixed, N manually fixed, N flagged for team review.

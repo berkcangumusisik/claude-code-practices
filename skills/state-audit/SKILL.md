@@ -1,6 +1,6 @@
 ---
 name: state-audit
-description: Audits React state management — finds prop drilling, redundant state, and suggests improvements
+description: Audits React state management - finds prop drilling, redundant state, and suggests improvements
 argument-hint: [directory]
 user-invocable: true
 allowed-tools: Read Grep Glob

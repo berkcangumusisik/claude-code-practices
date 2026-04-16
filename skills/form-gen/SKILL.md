@@ -22,7 +22,7 @@ cat package.json | grep -E '"zod"|"yup"|"joi"'
 3. Generate the form with:
    - Field definitions based on description
    - Zod/Yup validation schema
-   - Inline error messages (accessible — `aria-describedby`)
+   - Inline error messages (accessible - `aria-describedby`)
    - Loading state on submit
    - Success/error feedback
    - Proper `name` attributes for autofill

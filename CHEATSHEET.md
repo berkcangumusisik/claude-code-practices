@@ -120,9 +120,9 @@ Switch: `Shift+Tab` or `claude --permission-mode <mode>`
 ```
 
 Locations:
-- `./CLAUDE.md` — project (committed)
-- `./CLAUDE.local.md` — personal (gitignored)
-- `~/.claude/CLAUDE.md` — all projects
+- `./CLAUDE.md` - project (committed)
+- `./CLAUDE.local.md` - personal (gitignored)
+- `~/.claude/CLAUDE.md` - all projects
 
 ---
 

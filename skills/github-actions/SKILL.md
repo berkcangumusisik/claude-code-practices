@@ -9,7 +9,7 @@ effort: medium
 
 ## GitHub Actions Workflow
 
-Type: **$1** (ci | deploy | release | lint — or auto-detect)
+Type: **$1** (ci | deploy | release | lint - or auto-detect)
 
 1. Check existing workflows:
 ```bash

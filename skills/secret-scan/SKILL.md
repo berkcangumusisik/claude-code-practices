@@ -35,4 +35,4 @@ For each finding:
 - Confirm if it's a real secret or a false positive
 - If real: advise rotating the credential immediately, then removing from git history
 
-**Note:** Rotate first, remove from history second — a removed commit is not the same as a revoked token.
+**Note:** Rotate first, remove from history second - a removed commit is not the same as a revoked token.

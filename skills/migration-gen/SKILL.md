@@ -23,9 +23,9 @@ cat prisma/schema.prisma 2>/dev/null || ls migrations/ 2>/dev/null | tail -3 | x
 ```
 
 3. Generate the migration based on the requested change:
-   - Additive changes (new table, new column with default) — safe
-   - Destructive changes (drop column, rename) — add warning and suggest renaming strategy
-   - Data migrations — separate from schema migrations
+   - Additive changes (new table, new column with default) - safe
+   - Destructive changes (drop column, rename) - add warning and suggest renaming strategy
+   - Data migrations - separate from schema migrations
 
 4. For Prisma: generate migration name and schema change, then ask to run:
 ```bash

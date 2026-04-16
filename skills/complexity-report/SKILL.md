@@ -33,7 +33,7 @@ Top 5 Complexity Hotspots:
   ...
 
 Refactoring recommendations:
-  1. handleRequest() — extract 3 auth validation blocks into separate functions
+  1. handleRequest() - extract 3 auth validation blocks into separate functions
   2. ...
 ```
 

@@ -1,6 +1,6 @@
 ---
 name: caching-strategy
-description: Adds caching to expensive operations — Redis, in-memory, HTTP cache headers
+description: Adds caching to expensive operations - Redis, in-memory, HTTP cache headers
 argument-hint: [file-or-endpoint]
 user-invocable: true
 allowed-tools: Read Grep Glob Edit

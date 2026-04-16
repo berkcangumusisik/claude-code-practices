@@ -24,7 +24,7 @@ grep -rn "router\.\(get\|post\|put\|patch\|delete\)\|app\.\(get\|post\|put\|patc
    - Auth requirements (middleware check)
    - Error responses
 
-3. Generate documentation in OpenAPI 3.0 YAML format OR a readable Markdown table — ask the user which format.
+3. Generate documentation in OpenAPI 3.0 YAML format OR a readable Markdown table - ask the user which format.
 
 **Markdown format:**
 ```markdown

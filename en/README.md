@@ -1,4 +1,4 @@
-# Claude Code — Comprehensive English Guide
+# Claude Code - Comprehensive English Guide
 
 [← Home](../README.md) · [Türkçe](../tr/README.md) · [Skills](../skills/README.md)
 
@@ -147,10 +147,10 @@ Clear history when switching to unrelated work. Prevents stale context from inte
 
 **3. Write specific prompts**
 ```
-# Bad — triggers broad scanning
+# Bad - triggers broad scanning
 "Improve this project"
 
-# Good — focused work
+# Good - focused work
 "Add email validation to login() in src/auth/login.ts:142"
 ```
 
@@ -163,7 +163,7 @@ MAX_THINKING_TOKENS=4000 claude
 Delegate heavy operations (log analysis, large file scanning) to subagents. Get only summaries back.
 
 **6. Keep CLAUDE.md under 200 lines**
-Move detailed workflows to skills — skills only load when invoked.
+Move detailed workflows to skills - skills only load when invoked.
 
 **7. Disable unused MCP servers**
 ```bash
@@ -189,7 +189,7 @@ coverage/
 | Model | When to Use |
 |---|---|
 | `claude-haiku-4-5` | Simple subagent tasks, repetitive operations |
-| `claude-sonnet-4-6` | Most coding tasks — default choice |
+| `claude-sonnet-4-6` | Most coding tasks - default choice |
 | `claude-opus-4-6` | Complex architectural decisions, hard algorithms |
 
 ---
@@ -382,7 +382,7 @@ paths:
 
 ### Ready-to-Use Hook Recipes
 
-#### Notification — Claude Is Waiting for You
+#### Notification - Claude Is Waiting for You
 
 ```json
 {
@@ -475,7 +475,7 @@ Skills are reusable workflows invokable as `/command-name`.
 ```yaml
 ---
 name: skill-name
-description: What it does — shown in menu
+description: What it does - shown in menu
 argument-hint: <arg1> [arg2]
 user-invocable: true
 allowed-tools: Bash(git *) Edit Read
@@ -558,7 +558,7 @@ claude mcp remove server-name
 }
 ```
 
-**Tool naming:** `mcp__<server>__<tool>` — e.g., `mcp__github__search_repositories`
+**Tool naming:** `mcp__<server>__<tool>` - e.g., `mcp__github__search_repositories`
 
 ---
 
@@ -740,7 +740,7 @@ claude -n "auth-refactor" --permission-mode acceptEdits
 # 2. Before complex changes
 /plan
 
-# 3. During work — save tokens
+# 3. During work - save tokens
 /compact Keep only changes in the auth module
 
 # 4. End of task
@@ -755,7 +755,7 @@ claude -n "auth-refactor" --permission-mode acceptEdits
 - [ ] Prohibited tools (e.g., npm → bun)
 - [ ] File/folder naming conventions
 - [ ] Team-specific conventions
-- [ ] Under 200 lines — pull extras with @import
+- [ ] Under 200 lines - pull extras with @import
 
 ### Automation with Hooks
 

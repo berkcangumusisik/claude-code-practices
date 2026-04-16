@@ -12,7 +12,7 @@ effort: medium
 Target: **$1** $2
 
 1. Read the file and understand:
-   - What framework is used (Jest, Vitest, Mocha, pytest, Go test, etc.) — check existing test files for patterns
+   - What framework is used (Jest, Vitest, Mocha, pytest, Go test, etc.) - check existing test files for patterns
    - The function/class signatures, types, return values
    - Existing tests (if any) to match style
 
@@ -24,6 +24,6 @@ Target: **$1** $2
 
 3. Write tests following the project's existing test style.
 
-4. Place the test file next to the source or in `__tests__/` — match project convention.
+4. Place the test file next to the source or in `__tests__/` - match project convention.
 
 5. Show a summary: N tests covering X scenarios.

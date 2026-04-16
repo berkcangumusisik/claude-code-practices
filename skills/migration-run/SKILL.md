@@ -27,7 +27,7 @@ npx prisma migrate deploy 2>/dev/null \
   || npx sequelize-cli db:migrate 2>/dev/null
 ```
 
-5. Verify the result — check migration status again to confirm all are applied.
+5. Verify the result - check migration status again to confirm all are applied.
 
 6. If migration fails:
    - Show the exact error

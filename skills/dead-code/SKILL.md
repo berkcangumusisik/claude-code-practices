@@ -31,4 +31,4 @@ grep -r "^function \|^const .* = (" src/ --include="*.ts" | head -30
 
 5. For safe-to-delete items: ask confirmation, then remove.
 
-Never delete code you're not certain about — mark uncertain items with `// TODO: verify unused`.
+Never delete code you're not certain about - mark uncertain items with `// TODO: verify unused`.

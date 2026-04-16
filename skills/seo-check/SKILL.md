@@ -1,6 +1,6 @@
 ---
 name: seo-check
-description: Audits Next.js/React app for SEO issues — metadata, Open Graph, structured data
+description: Audits Next.js/React app for SEO issues - metadata, Open Graph, structured data
 argument-hint: [page-path]
 user-invocable: true
 allowed-tools: Read Grep Glob Edit

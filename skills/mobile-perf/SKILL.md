@@ -1,6 +1,6 @@
 ---
 name: mobile-perf
-description: Audits React Native app for performance issues — FlatList, re-renders, bridge calls
+description: Audits React Native app for performance issues - FlatList, re-renders, bridge calls
 argument-hint: [file-or-directory]
 user-invocable: true
 allowed-tools: Read Grep Glob

@@ -29,12 +29,12 @@ Stack trace'deki veya açıklamada belirtilen dosyaları oku.
 ## Adım 3: Kök Neden
 
 Şu kategorilerden birini tespit et:
-- **Tip uyuşmazlığı** — beklenmedik null/undefined, yanlış tip
-- **Mantık hatası** — yanlış koşul, off-by-one
-- **Async sorun** — race condition, eksik await
-- **Bağımlılık** — import hatası, versiyon uyumsuzluğu
-- **Ortam** — env değişkeni eksik, path sorunu
-- **Veri** — beklenmedik format, eksik alan
+- **Tip uyuşmazlığı** - beklenmedik null/undefined, yanlış tip
+- **Mantık hatası** - yanlış koşul, off-by-one
+- **Async sorun** - race condition, eksik await
+- **Bağımlılık** - import hatası, versiyon uyumsuzluğu
+- **Ortam** - env değişkeni eksik, path sorunu
+- **Veri** - beklenmedik format, eksik alan
 
 ## Adım 4: Düzeltme
 

@@ -39,4 +39,4 @@ export function create$ARGUMENTS(overrides?: Partial<$ARGUMENTS>): $ARGUMENTS {
    - MSW handler if the project uses MSW (`src/mocks/`)
    - Array factory: `createMany$ARGUMENTS(n: number)`
 
-6. Place in `src/__mocks__/` or `src/testing/factories/` — match project convention.
+6. Place in `src/__mocks__/` or `src/testing/factories/` - match project convention.

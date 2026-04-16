@@ -26,13 +26,13 @@ cat package.json | grep -E '"ioredis"|"redis"|"@upstash/redis"'
 
 **Tiered limits by endpoint sensitivity:**
 ```ts
-// Auth endpoints — strict
+// Auth endpoints - strict
 authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 5 })
 
-// API endpoints — moderate
+// API endpoints - moderate
 apiLimiter = rateLimit({ windowMs: 60 * 1000, max: 100 })
 
-// Public read endpoints — loose
+// Public read endpoints - loose
 publicLimiter = rateLimit({ windowMs: 60 * 1000, max: 300 })
 ```
 

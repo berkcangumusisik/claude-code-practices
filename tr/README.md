@@ -1,4 +1,4 @@
-# Claude Code — Türkçe Kapsamlı Rehber
+# Claude Code - Türkçe Kapsamlı Rehber
 
 [← Ana Sayfa](../README.md) · [English](../en/README.md) · [Skills](../skills/README.md)
 
@@ -147,10 +147,10 @@
 
 **3. Spesifik prompt yaz**
 ```
-# Kötü — geniş tarama tetikler
+# Kötü - geniş tarama tetikler
 "Bu projeyi iyileştir"
 
-# İyi — odaklı çalışma
+# İyi - odaklı çalışma
 "src/auth/login.ts:142 satırındaki login() fonksiyonuna email validasyonu ekle"
 ```
 
@@ -163,7 +163,7 @@ MAX_THINKING_TOKENS=4000 claude
 Ağır işlemleri (log analizi, büyük dosya taraması) alt ajanlara delege et. Yalnızca özet dönsün.
 
 **6. CLAUDE.md'yi 200 satırın altında tut**
-Ayrıntılı iş akışlarını skills'e taşı — skill'ler yalnızca çağrıldığında yüklenir.
+Ayrıntılı iş akışlarını skills'e taşı - skill'ler yalnızca çağrıldığında yüklenir.
 
 **7. Kullanılmayan MCP sunucularını devre dışı bırak**
 ```bash
@@ -189,7 +189,7 @@ coverage/
 | Model | Ne Zaman Kullan |
 |---|---|
 | `claude-haiku-4-5` | Basit subagent görevleri, tekrar eden işler |
-| `claude-sonnet-4-6` | Çoğu kodlama görevi — varsayılan seçim |
+| `claude-sonnet-4-6` | Çoğu kodlama görevi - varsayılan seçim |
 | `claude-opus-4-6` | Karmaşık mimari kararlar, zor algoritmalar |
 
 ---
@@ -393,7 +393,7 @@ paths:
 
 ### Hazır Hook Tarifleri
 
-#### Bildirim — Claude Seni Bekliyor
+#### Bildirim - Claude Seni Bekliyor
 
 ```json
 {
@@ -497,7 +497,7 @@ Skills, `/komut-adı` şeklinde çağrılabilen yeniden kullanılabilir iş akı
 ```yaml
 ---
 name: skill-adi
-description: Ne yapar — menüde görünür
+description: Ne yapar - menüde görünür
 argument-hint: <arg1> [arg2]
 user-invocable: true
 allowed-tools: Bash(git *) Edit Read
@@ -580,7 +580,7 @@ claude mcp remove sunucu-adı
 }
 ```
 
-**Araç adlandırma:** `mcp__<sunucu>__<araç>` — örn. `mcp__github__search_repositories`
+**Araç adlandırma:** `mcp__<sunucu>__<araç>` - örn. `mcp__github__search_repositories`
 
 ---
 
@@ -745,7 +745,7 @@ claude -w feature --tmux
 
 ```
 ✅ "src/auth/login.ts:87'deki validateEmail() fonksiyonuna RFC 5322 kontrolü ekle"
-✅ "Tüm React component'larında prop-types eksikliğini bul ve ekle — src/components/"
+✅ "Tüm React component'larında prop-types eksikliğini bul ve ekle - src/components/"
 ✅ "package.json'daki bağımlılıkları güncelle, breaking change olanları listele"
 
 ❌ "Kodu düzelt"
@@ -777,7 +777,7 @@ claude -n "auth-refactor" --permission-mode acceptEdits
 - [ ] Yasaklı araçlar (ör. npm yerine bun)
 - [ ] Dosya/klasör kuralları
 - [ ] Ekip spesifik sözleşmeler
-- [ ] 200 satır altında — fazlasını @import ile çek
+- [ ] 200 satır altında - fazlasını @import ile çek
 
 ### Hook'larla Otomasyon
 

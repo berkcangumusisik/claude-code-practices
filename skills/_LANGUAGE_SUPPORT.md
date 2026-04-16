@@ -14,7 +14,7 @@ If you use English with Claude, skill instructions execute in English.
 ```
 
 Claude şunu anlayacak: "42 numaralı issue'yu bul, kodda ilgili yeri tespit et, düzelt ve commit hazırla."  
-Türkçe açıklama istersen: `/fix-issue 42 — Türkçe açıkla`
+Türkçe açıklama istersen: `/fix-issue 42 - Türkçe açıkla`
 
 ---
 
@@ -23,9 +23,9 @@ Türkçe açıklama istersen: `/fix-issue 42 — Türkçe açıkla`
 Her skill'in başına ekleyebilirsin:
 
 ```
-/security-audit — yanıtı Türkçe ver
-/pr-review — respond in English
-/refactor src/auth.ts — auf Deutsch erklären
+/security-audit - yanıtı Türkçe ver
+/pr-review - respond in English
+/refactor src/auth.ts - auf Deutsch erklären
 ```
 
 ---

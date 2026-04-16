@@ -20,7 +20,7 @@ gh issue view $1
 - Varsa bağlantılı issue'ları veya PR'ları kontrol et: `gh issue view $1 --comments`
 
 ## 3. Çözümü Uygula
-- Minimal değişiklik yap — sadece issue'nun gerektirdiklerini
+- Minimal değişiklik yap - sadece issue'nun gerektirdiklerini
 - Mevcut kod stiline uy
 - Gerekirse test ekle veya güncelle
 

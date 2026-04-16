@@ -24,7 +24,7 @@ grep -rn "\b$1\b" . --include="*.ts" --include="*.tsx" --include="*.js" --includ
    - Imports/exports
    - Test files
    - Comments and documentation
-   - String literals (flag separately — may be API contracts)
+   - String literals (flag separately - may be API contracts)
 
 3. Show the full list. Flag any in string literals or external-facing API contracts as risky.
 

@@ -1,6 +1,6 @@
 ---
 name: deploy-check
-description: Pre-deploy checklist — runs tests, checks env vars, verifies build, and flags risks
+description: Pre-deploy checklist - runs tests, checks env vars, verifies build, and flags risks
 user-invocable: true
 allowed-tools: Bash Read Glob
 effort: low
