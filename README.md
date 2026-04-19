@@ -124,11 +124,11 @@ Bookmark-worthy one-pager. Everything you'll reach for twice a day.
 
 ```mermaid
 flowchart LR
-    A[Vague prompt] -.->|Wastes tokens| X[(Fail)]
-    B[CLAUDE.md<br/>+ .claudeignore] --> C[Specific prompt]
-    C --> D[Run a /skill]
-    D -->|Long session| E[/compact with hint]
-    E --> F{{Ship}}
+    A["Vague prompt"] -.->|Wastes tokens| X(["Fail"])
+    B["CLAUDE.md<br/>+ .claudeignore"] --> C["Specific prompt"]
+    C --> D["Run a skill"]
+    D -->|Long session| E["compact with hint"]
+    E --> F(["Ship"])
     D --> F
 
     style X fill:#ff6b6b,stroke:#000,color:#fff
@@ -212,7 +212,11 @@ Found a better pattern, wrote a skill, spotted a bug? PRs welcome. See [CONTRIBU
 ## Star History
 
 <a href="https://star-history.com/#berkcangumusisik/claude-code-practices&Date">
-  <img src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" alt="Star History Chart" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" />
+  </picture>
 </a>
 
 ---

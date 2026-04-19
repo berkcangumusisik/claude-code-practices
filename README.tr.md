@@ -124,11 +124,11 @@ Bookmark'lanacak tek sayfa. Günde iki kez bakacağın her şey.
 
 ```mermaid
 flowchart LR
-    A[Muğlak prompt] -.->|Token yakar| X[(Başarısız)]
-    B[CLAUDE.md<br/>+ .claudeignore] --> C[Spesifik prompt]
-    C --> D[Skill çalıştır]
-    D -->|Uzun oturum| E[/compact ipucuyla]
-    E --> F{{Ship}}
+    A["Muğlak prompt"] -.->|Token yakar| X(["Başarısız"])
+    B["CLAUDE.md<br/>+ .claudeignore"] --> C["Spesifik prompt"]
+    C --> D["Skill çalıştır"]
+    D -->|Uzun oturum| E["compact ipucuyla"]
+    E --> F(["Ship"])
     D --> F
 
     style X fill:#ff6b6b,stroke:#000,color:#fff
@@ -212,7 +212,11 @@ Daha iyi bir yöntem bulduysan, yeni bir skill yazdıysan veya hata gördüysen 
 ## Star Geçmişi
 
 <a href="https://star-history.com/#berkcangumusisik/claude-code-practices&Date">
-  <img src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" alt="Star History Chart" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" />
+  </picture>
 </a>
 
 ---
