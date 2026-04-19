@@ -9,6 +9,7 @@
 [![License](https://img.shields.io/github/license/berkcangumusisik/claude-code-practices?style=for-the-badge&color=green&labelColor=000)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-82%2B-orange?style=for-the-badge&labelColor=000)](skills/README.md)
 [![Made with Claude Code](https://img.shields.io/badge/made_with-Claude_Code-7B4FFF?style=for-the-badge&labelColor=000)](https://claude.com/claude-code)
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github&labelColor=000)](https://github.com/sponsors/berkcangumusisik)
 
 <br>
 
@@ -220,6 +221,14 @@ claude
 </details>
 
 ---
+
+## Support the project
+
+If this repo saved you tokens or hours, there are three ways to give back:
+
+- [Star the repo](https://github.com/berkcangumusisik/claude-code-practices) so the next person finds it
+- [Sponsor on GitHub](https://github.com/sponsors/berkcangumusisik) to keep new skills and templates coming
+- Open a PR with your own patterns (see below)
 
 ## Contributing
 

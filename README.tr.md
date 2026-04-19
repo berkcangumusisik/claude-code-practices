@@ -9,6 +9,7 @@
 [![License](https://img.shields.io/github/license/berkcangumusisik/claude-code-practices?style=for-the-badge&color=green&labelColor=000)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-82%2B-orange?style=for-the-badge&labelColor=000)](skills/README.md)
 [![Made with Claude Code](https://img.shields.io/badge/made_with-Claude_Code-7B4FFF?style=for-the-badge&labelColor=000)](https://claude.com/claude-code)
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github&labelColor=000)](https://github.com/sponsors/berkcangumusisik)
 
 <br>
 
@@ -219,6 +220,14 @@ claude
 </details>
 
 ---
+
+## Projeyi Destekle
+
+Bu repo sana token veya saat kazandırdıysa üç yolla geri verebilirsin:
+
+- [Repoya yıldız bırak](https://github.com/berkcangumusisik/claude-code-practices) ki bir sonraki kişi de bulsun
+- [GitHub'da sponsor ol](https://github.com/sponsors/berkcangumusisik), yeni skill ve şablonlar gelmeye devam etsin
+- Kendi pattern'lerinle PR aç (aşağıda)
 
 ## Katkı
 
