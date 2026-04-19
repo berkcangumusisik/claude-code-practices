@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/berkcangumusisik/claude-code-practices/discussions
+    about: For questions, ideas, or sharing how you use Claude Code, open a Discussion instead.

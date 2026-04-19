@@ -1,0 +1,19 @@
+title: "[Show] "
+labels: ["show-and-tell"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you build or change?
+      description: Skill, hook, CLAUDE.md trick, or workflow you'd share with the room.
+    validations:
+      required: true
+  - type: textarea
+    id: tokens
+    attributes:
+      label: What did it save you?
+      description: Token count, time, cost — whatever's measurable. Numbers over vibes.
+  - type: textarea
+    id: gotchas
+    attributes:
+      label: Gotchas others should know

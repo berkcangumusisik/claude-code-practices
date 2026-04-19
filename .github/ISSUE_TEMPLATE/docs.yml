@@ -1,0 +1,22 @@
+name: Docs issue
+description: Something in the README, guides, or cheatsheet is wrong, missing, or confusing.
+labels: ["docs"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where?
+      description: File and, if you can, a link or line number.
+      placeholder: "en/README.md section 3"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)

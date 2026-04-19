@@ -69,25 +69,39 @@ coverage/
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="33%" valign="top">
 
 #### [Skill Kütüphanesi →](skills/README.md)
-**82 hazır slash command.**
-`.claude/skills/` içine kopyala, `/komut` ile kullan.
-
-```bash
-cp -r skills/ .claude/skills/
-```
+**82 hazır slash command.** `.claude/skills/`'e kopyala, `/komut` ile kullan.
 
 </td>
 <td width="33%" valign="top">
+
+#### [Prompt Şablonları →](prompts/README.md)
+Bug fix, refactor, review, migration için kopyala-yapıştır prompt kalıpları.
+
+</td>
+<td width="33%" valign="top">
+
+#### [CLAUDE.md Galerisi →](templates/claude-md/README.md)
+Next 16, React 19, Django 5.2, Go 1.26, Rust için hazır memory dosyaları.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### [Hook Tarifleri →](hooks/README.md)
+`settings.json` parçaları: otomatik format, test, secret engelleyici.
+
+</td>
+<td valign="top">
 
 #### [Tam Rehber →](tr/README.md)
-Kısayollar, hooks, CLAUDE.md, izin modları, MCP, subagents.
-Hepsi tek dosyada.
+Kısayollar, CLAUDE.md, izin modları, MCP, subagents — hepsi tek dosyada.
 
 </td>
-<td width="33%" valign="top">
+<td valign="top">
 
 #### [Cheatsheet →](CHEATSHEET.md)
 Bookmark'lanacak tek sayfa. Günde iki kez bakacağın her şey.
@@ -140,16 +154,21 @@ flowchart LR
 
 ## Hızlı Başlangıç
 
+**Tek komut** (core skill'ler, `.claudeignore` ve `CLAUDE.md` iskeleti):
+
 ```bash
-# 1. Klonla
+curl -fsSL https://raw.githubusercontent.com/berkcangumusisik/claude-code-practices/main/install.sh | bash
+```
+
+Bayraklar: `--all` (tüm skill'ler), `--skills a,b,c` (seçmeli).
+
+Ya da manuel:
+
+```bash
 git clone https://github.com/berkcangumusisik/claude-code-practices.git
-
-# 2. Skill'leri projene kopyala
 cp -r claude-code-practices/skills ./.claude/skills
-
-# 3. Birini dene
 claude
-> /commit
+> /cost-audit
 ```
 
 ---
@@ -159,9 +178,11 @@ claude
 | Durumun | Buradan başla |
 |---|---|
 | Yeni başlıyorum | [Cheatsheet](CHEATSHEET.md) |
-| Token maliyetim yüksek | [Token optimizasyonu](tr/README.md#3-token-optimizasyonu) |
-| Aynı promptları tekrar yazıyorum | [Skill Kütüphanesi](skills/README.md) |
-| Ekiple paylaşmak istiyorum | [CLAUDE.md şablonları](tr/README.md#4-claudemd) |
+| Token maliyetim yüksek | Oturumda [`/cost-audit`](skills/cost-audit/SKILL.md) çalıştır |
+| Aynı promptları tekrar yazıyorum | [Prompt şablonları](prompts/README.md) · [Skill Kütüphanesi](skills/README.md) |
+| Yeni proje başlatıyorum | [CLAUDE.md galerisi](templates/claude-md/README.md) |
+| Formatter'ı elle çalıştırmaktan yoruldum | [Hook tarifleri](hooks/README.md) |
+| Daha fazla kaynak arıyorum | [Awesome Claude Code](AWESOME.md) |
 
 ---
 
@@ -211,11 +232,11 @@ Daha iyi bir yöntem bulduysan, yeni bir skill yazdıysan veya hata gördüysen 
 
 ## Star Geçmişi
 
-<a href="https://star-history.com/#berkcangumusisik/claude-code-practices&Date">
+<a href="https://www.star-history.com/?repos=berkcangumusisik%2Fclaude-code-practices&type=date&legend=bottom-right">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&theme=dark&logscale&legend=bottom-right" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&logscale&legend=bottom-right" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&logscale&legend=bottom-right" />
   </picture>
 </a>
 

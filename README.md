@@ -69,25 +69,40 @@ Six lines. File reads drop **3× to 10×** depending on the project.
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="33%" valign="top">
 
 #### [Skill Library →](skills/README.md)
 **82 ready-made slash commands.**
 Copy to `.claude/skills/`, invoke with `/name`.
 
-```bash
-cp -r skills/ .claude/skills/
-```
+</td>
+<td width="33%" valign="top">
+
+#### [Prompt Templates →](prompts/README.md)
+Copy-paste prompt shapes for bug fixes, refactors, reviews, migrations.
 
 </td>
 <td width="33%" valign="top">
+
+#### [CLAUDE.md Gallery →](templates/claude-md/README.md)
+Framework-ready memory files for Next 16, React 19, Django 5.2, Go 1.26, Rust.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### [Hook Recipes →](hooks/README.md)
+Drop-in `settings.json` snippets: auto-format, auto-test, secret blocker.
+
+</td>
+<td valign="top">
 
 #### [Full Guide →](en/README.md)
-Shortcuts, hooks, CLAUDE.md, permission modes, MCP, subagents.
-All in one file.
+Shortcuts, CLAUDE.md, permission modes, MCP, subagents — all in one file.
 
 </td>
-<td width="33%" valign="top">
+<td valign="top">
 
 #### [Cheatsheet →](CHEATSHEET.md)
 Bookmark-worthy one-pager. Everything you'll reach for twice a day.
@@ -140,16 +155,21 @@ flowchart LR
 
 ## Quick Start
 
+**One command** (installs core skills, `.claudeignore`, and `CLAUDE.md` scaffold):
+
 ```bash
-# 1. Clone
+curl -fsSL https://raw.githubusercontent.com/berkcangumusisik/claude-code-practices/main/install.sh | bash
+```
+
+Flags: `--all` for every skill, `--skills a,b,c` to pick.
+
+Or manually:
+
+```bash
 git clone https://github.com/berkcangumusisik/claude-code-practices.git
-
-# 2. Drop skills into your project
 cp -r claude-code-practices/skills ./.claude/skills
-
-# 3. Try one
 claude
-> /commit
+> /cost-audit
 ```
 
 ---
@@ -159,9 +179,11 @@ claude
 | If you're... | Start here |
 |---|---|
 | New to Claude Code | [Cheatsheet](CHEATSHEET.md) |
-| Paying too much in tokens | [Token optimization](en/README.md#3-token-optimization) |
-| Rewriting the same prompts | [Skill Library](skills/README.md) |
-| Sharing conventions with a team | [CLAUDE.md templates](en/README.md#4-claudemd) |
+| Paying too much in tokens | Run [`/cost-audit`](skills/cost-audit/SKILL.md) on your session |
+| Rewriting the same prompts | [Prompt templates](prompts/README.md) · [Skill Library](skills/README.md) |
+| Starting a new project | [CLAUDE.md gallery](templates/claude-md/README.md) |
+| Tired of running formatters by hand | [Hook recipes](hooks/README.md) |
+| Looking for more resources | [Awesome Claude Code](AWESOME.md) |
 
 ---
 
@@ -211,11 +233,11 @@ Found a better pattern, wrote a skill, spotted a bug? PRs welcome. See [CONTRIBU
 
 ## Star History
 
-<a href="https://star-history.com/#berkcangumusisik/claude-code-practices&Date">
+<a href="https://www.star-history.com/?repos=berkcangumusisik%2Fclaude-code-practices&type=date&legend=bottom-right">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=berkcangumusisik/claude-code-practices&type=Date" width="620" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&theme=dark&logscale&legend=bottom-right" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&logscale&legend=bottom-right" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=berkcangumusisik/claude-code-practices&type=date&logscale&legend=bottom-right" />
   </picture>
 </a>
 

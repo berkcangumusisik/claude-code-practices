@@ -1,0 +1,43 @@
+name: Bug report
+description: A skill, hook, or template in this repo does not work as documented.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is broken?
+      description: Which file, skill, or hook, and what goes wrong?
+      placeholder: "skills/cost-audit/SKILL.md — …"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Exact steps, command, or prompt. Minimal is better than complete.
+      placeholder: |
+        1. copy skills/cost-audit into .claude/skills/
+        2. run `/cost-audit`
+        3. see error X
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      placeholder: "run `claude --version`"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 15 / Ubuntu 24.04 / Windows 11 (WSL)"
+    validations:
+      required: true

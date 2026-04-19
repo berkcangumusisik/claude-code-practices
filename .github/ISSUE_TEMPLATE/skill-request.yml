@@ -1,0 +1,44 @@
+name: Skill request
+description: Suggest a new slash-command skill for the library.
+labels: ["skill-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: The slash command you'd invoke.
+      placeholder: "/perf-audit"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: One paragraph. The pain before the skill exists.
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: What should it do?
+      description: Rough steps — not a full implementation.
+      placeholder: |
+        1. Read X
+        2. Look for Y
+        3. Output Z
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Existing skills, manual workflows, or prompts that almost-but-not-quite solve this.
+  - type: checkboxes
+    id: self-check
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing skills in `skills/` and didn't find this one.
+          required: true
+        - label: I'd actually use this in the next week.
+          required: true
